@@ -1,10 +1,8 @@
 package com.devsenior.co.producto;
 
-import com.devsenior.co.producto.model.Producto;
+import com.devsenior.co.producto.repository.IProductoRepository;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.util.concurrent.atomic.AtomicReferenceFieldUpdater;
 
 @SpringBootApplication
 public class ProductoApplication {
